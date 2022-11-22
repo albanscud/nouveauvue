@@ -1,0 +1,42 @@
+{
+    "produits": [
+        {
+            "id": 1,
+            "name": "Bitcoin",
+            "creator": "Satoshi Nakamoto"
+        },
+        {
+            "id": 2,
+            "name": "Solana",
+            "creator": "Anatoly Yakovenko"
+        },
+        {
+            "id": 3,
+            "name": "Ethereum",
+            "creator": "Vitalik Buterin"
+        },
+        {
+            "id": 4,
+            "name": "Cardano",
+            "creator": "Charles Hoskinson"
+        },
+        {
+            "id": 5,
+            "name": "XRP",
+            "creator": "Ripple"
+  
+        },         
+        {
+            "id": 6,
+            "name":"BNB",
+            "creator": "Binance"
+        },  
+        {
+            "id": 7,
+            "name":"Dodge",
+            "creator": "Elon Musk"
+            
+        }
+    ]
+  
+  }
