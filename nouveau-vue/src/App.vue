@@ -22,6 +22,13 @@ export default {
   components: {
     tetedepage,
     pieddepage
+  },
+  data() {
+    return {
+    }
+  },
+  methods: {
+    
   }
 }
 </script> 
