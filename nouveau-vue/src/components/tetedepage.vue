@@ -20,8 +20,8 @@
           </div>
           <!-- navbar gauche -->
           <div class="hidden md:flex items-center space-x-20">
-            <a href="#resaux sociaux" class="py-4 px-2 text-orange-400 font-semibold hover:text-white transition duration-300"><router-link to="/nouscontacter">Nous contacter</router-link></a>
-            <a  class="py-4 px-2 text-orange-400 font-semibold hover:text-white transition duration-300"><router-link to="/cryptos">Différentes cryptomonnaies</router-link></a>
+            <a class="py-4 px-2 text-orange-400 font-semibold hover:text-white transition duration-300"><router-link to="/nouscontacter">Nous contacter</router-link></a>
+            <a class="py-4 px-2 text-orange-400 font-semibold hover:text-white transition duration-300"><router-link to="/cryptos">Différentes cryptomonnaies</router-link></a>
             
           </div>
         </div>

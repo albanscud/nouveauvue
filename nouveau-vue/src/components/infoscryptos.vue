@@ -9,6 +9,21 @@
       </div>
     </div>
     </div>  -->
+  
+    <!-- <p class="py-5 text-center text-xl"> Différentes cryptomonnaies ci dessous : Voici le cours en temps réel du bitcoin et de l'ethereum.</p>
+  <div  class="">vvvvvgv
+    <div id="app">
+      <div class="justify-center pr-5">
+        <div class="text-center">
+          <div class="py-4" v-for="produit in produits" >
+            <p class="border-violet-600 border-4">
+              {{produit.name}} 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
 
  <div class="bg-white">
     <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -24,13 +39,16 @@
         </a>
       </div>
     </div>
-  </div>
+  </div> 
+
+
   
 
 </template>
 
 
-<script setup>
+
+ <script setup>
 const products = [
   {
     id: 1,
@@ -98,7 +116,8 @@ const products = [
   }
 ]
 
-/*import axios from 'axios'
+
+/* import axios from 'axios'
 
 export default {
   props: {
@@ -122,7 +141,7 @@ export default {
    }  
 } */
 </script>
-
+ 
 
 
 

@@ -7,6 +7,7 @@ import './style.css'
 import 'flowbite'
 import './script.js'
 
+
 createApp(App).use(store).use(router).mount('#app')
 
  
