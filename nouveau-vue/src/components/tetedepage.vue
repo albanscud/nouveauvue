@@ -1,6 +1,6 @@
 <template>
     <div class="bg-white flex">
-    <div class="sm:py-2 sm:px-2 lg:px-2  "><img src="../../images/logo.png" alt="logo de la boite" width="200"></div>
+    <div class="sm:py-2 sm:px-2 lg:px-2  "><img src="../assets/logo.png" alt="logo de la boite" width="200"></div>
     <div class="mx-auto max-w-7xl px-4 sm:py-10 sm:px-6 lg:px-8">
       <div class="text-center">
         <h2 class="text-xl font-semibold text-orange-400">Cryptomonnaies</h2>
@@ -20,15 +20,15 @@
           </div>
           <!-- navbar gauche -->
           <div class="hidden md:flex items-center space-x-20">
-            <a href="#resaux sociaux" class="py-4 px-2 text-orange-400 font-semibold hover:text-white transition duration-300">Nous contacter</a>
+            <a href="#resaux sociaux" class="py-4 px-2 text-orange-400 font-semibold hover:text-white transition duration-300"><router-link to="/nouscontacter">Nous contacter</router-link></a>
             <a  class="py-4 px-2 text-orange-400 font-semibold hover:text-white transition duration-300"><router-link to="/cryptos">Différentes cryptomonnaies</router-link></a>
             
           </div>
         </div>
         <!-- navbar droite -->
         <div class="hidden md:flex items-center space-x-3 ">
-          <a href="" class="py-2 px-2 font-medium text-orange-400 rounded hover:bg-orange-600 hover:text-white transition duration-300">Se connecter</a>
-          <a href="" class="py-2 px-2 font-medium text-orange-400  rounded hover:bg-orange-600 hover:text-white transition duration-300">S'inscrire</a>
+          <a href="" class="py-2 px-2 font-medium text-orange-400 rounded hover:bg-orange-600 hover:text-white transition duration-300"><router-link to='/seconnecter'>Se connecter</router-link></a>
+          <a href="" class="py-2 px-2 font-medium text-orange-400  rounded hover:bg-orange-600 hover:text-white transition duration-300"><router-link to='/seconnecter'>S'inscrire</router-link></a>
         </div>
         <!-- bouton pour mobile -->
         <div class="md:hidden flex items-center">
@@ -52,9 +52,11 @@
     <div class="hidden mobile-menu">
       <ul class="">
         
-        <li><a href="#resaux sociaux" class="block text-sm px-2 py-4 text-orange-400 hover:bg-orange-600 transition duration-300">Nous contacter</a></li>
-        <li><a href="#carouselExampleCaptions" class="block text-sm px-2 py-4 text-orange-400 hover:bg-orange-600 transition duration-300"><router-link to="/cryptos">Différentes cryptomonnaies</router-link></a></li>
-      </ul>
+        <li><a class="block text-sm px-2 py-4 text-orange-400 hover:bg-orange-600 transition duration-300"><router-link to="/nouscontacter">Nous contacter</router-link></a></li>
+        <li><a  class="block text-sm px-2 py-4 text-orange-400 hover:bg-orange-600 transition duration-300"><router-link to="/cryptos">Différentes cryptomonnaies</router-link></a></li>
+        <li><a  class="block text-sm px-2 py-4 text-orange-400 hover:bg-orange-600 transition duration-300"><router-link to='/seconnecter'>Se connecter</router-link></a></li>
+        <li><a  class="block text-sm px-2 py-4 text-orange-400 hover:bg-orange-600 transition duration-300"><router-link to='/seconnecter'>S'inscrire</router-link></a></li>
+        </ul>
     </div>
   </nav>
 </template>

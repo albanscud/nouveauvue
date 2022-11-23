@@ -19,6 +19,11 @@ const routes = [
     path: '/cryptos',
     name: 'Cryptos',
     component: () => import(/* webpackChunkName: "cryptos" */ '../views/Cryptos.vue')
+  },
+  {
+    path: '/seconnecter',
+    name: 'Seconnecter',
+    component: () => import(/* webpackChunkName: "seconnecter" */ '../views/Seconnecter.vue')
   }
 ]
 
