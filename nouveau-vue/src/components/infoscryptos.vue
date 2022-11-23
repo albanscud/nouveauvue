@@ -5,6 +5,8 @@
         <div class="py-4" v-for="produit in produits" >
           <p class="border-violet-600 border-4">
             {{produit.name}} 
+            {{produit.creator}}
+            {{produit.image}}
           </p>
         </div>
       </div>
