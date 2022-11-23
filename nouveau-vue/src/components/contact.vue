@@ -103,7 +103,7 @@
                   <div>
                     <div class="flex justify-between">
                       <label for="phone" class="block text-sm font-medium text-warm-gray-900">Telephone</label>
-                      <span id="phone-optional" class="text-sm text-warm-gray-500">Optionel</span>
+                      <span id="phone-optional" class="text-sm text-warm-gray-500">Optionnel</span>
                     </div>
                     <div class="mt-1">
                       <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full rounded-md border-warm-gray-300 py-3 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500" aria-describedby="phone-optional" />
