@@ -87,6 +87,14 @@ const products = [
     price: '1 DOGE ≃ 0,05 euros',
     imageSrc: 'https://cryptologos.cc/logos/dogecoin-doge-logo.png?v=023',
     imageAlt: 'photo dogecoin',
+  },
+  {
+    id: 8,
+    name: 'Polkadot',
+    href: '#',
+    price: '1 DOT ≃ 5 euros',
+    imageSrc: 'https://cryptologos.cc/logos/polkadot-new-dot-logo.png?v=023',
+    imageAlt: 'photo polkadot',
   }
 ]
 

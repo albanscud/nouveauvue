@@ -4,31 +4,31 @@
             "id": 1,
             "name": "Bitcoin",
             "creator": "Satoshi Nakamoto",
-            "image": "https://bitcoin.org/img/icons/opengraph.png?1621365429"
+            "image": "https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=023"
         },
         {
             "id": 2,
             "name": "Solana",
             "creator": "Anatoly Yakovenko",
-            "image": "https://solana.com/static/6d8b7b8c8f8d8b8c8f8d8b8c8f8d8b8c/6d8b7b8c8f8d8b8c8f8d8b8c8f8d8b8c/solana-logo.png"
+            "image": "https://cryptologos.cc/logos/solana-sol-logo.png?v=023"
         },
         {
             "id": 3,
             "name": "Ethereum",
             "creator": "Vitalik Buterin",
-            "image": "https://ethereum.org/static/6d8b7b8c8f8d8b8c8f8d8b8c8f8d8b8c/6d8b7b8c8f8d8b8c8f8d8b8c8f8d8b8c/eth2-logo.png"
+            "image": "https://cryptologos.cc/logos/ethereum-eth-logo.png?v=023"
         },
         {
             "id": 4,
             "name": "Cardano",
             "creator": "Charles Hoskinson",
-            "image": "https://cardano.org/static/6d8b7b8c8f8d8b8c8f8d8b8c8f8d8b8c/6d8b7b8c8f8d8b8c8f8d8b8c8f8d8b8c/cardano-logo.png"
+            "image": "https://cryptologos.cc/logos/cardano-ada-logo.png?v=023"
         },
         {
             "id": 5,
             "name": "XRP",
             "creator": "Ripple",
-            "image": "https://ripple.com/wp-content/uploads/2018/08/ripple-xrp-logo.png"
+            "image": "https://cryptologos.cc/logos/xrp-xrp-logo.png?v=023"
 
   
         },         
@@ -36,14 +36,20 @@
             "id": 6,
             "name":"BNB",
             "creator": "Binance",
-            "image": "https://www.binance.com/static/images/coins/bnb.svg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Binance_Logo.png"
         },  
         {
             "id": 7,
             "name":"Dodge",
             "creator": "Elon Musk",
-            "image": "https://www.cryptocompare.com/media/35650780/doge.png"
+            "image": "https://cryptologos.cc/logos/dogecoin-doge-logo.png?v=023"
             
+        },
+        {
+            "id": 8,
+            "name":"Polkadot",
+            "creator": "Gavin Wood",
+            "image": "https://cryptologos.cc/logos/polkadot-new-dot-logo.png?v=023"
         }
     ]
   
