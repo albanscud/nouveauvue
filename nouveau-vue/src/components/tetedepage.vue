@@ -20,15 +20,15 @@
           </div>
           <!-- navbar gauche -->
           <div class="hidden md:flex items-center space-x-20">
-            <a href="#resaux sociaux" class="py-4 px-2 text-orange-400 font-semibold hover:text-white transition duration-300">Nous contactez</a>
+            <a href="#resaux sociaux" class="py-4 px-2 text-orange-400 font-semibold hover:text-white transition duration-300">Nous contacter</a>
             <a  class="py-4 px-2 text-orange-400 font-semibold hover:text-white transition duration-300"><router-link to="/cryptos">Différentes cryptomonnaies</router-link></a>
             
           </div>
         </div>
         <!-- navbar droite -->
         <div class="hidden md:flex items-center space-x-3 ">
-          <a href="" class="py-2 px-2 font-medium text-orange-400 rounded hover:bg-orange-600 hover:text-white transition duration-300">Log In</a>
-          <a href="" class="py-2 px-2 font-medium text-orange-400  rounded hover:bg-orange-600 hover:text-white transition duration-300">Sign Up</a>
+          <a href="" class="py-2 px-2 font-medium text-orange-400 rounded hover:bg-orange-600 hover:text-white transition duration-300">Se connecter</a>
+          <a href="" class="py-2 px-2 font-medium text-orange-400  rounded hover:bg-orange-600 hover:text-white transition duration-300">S'inscrire</a>
         </div>
         <!-- bouton pour mobile -->
         <div class="md:hidden flex items-center">
@@ -52,8 +52,8 @@
     <div class="hidden mobile-menu">
       <ul class="">
         
-        <li><a href="#resaux sociaux" class="block text-sm px-2 py-4 text-orange-400 hover:bg-orange-600 transition duration-300">Nous contactez</a></li>
-        <li><a href="#carouselExampleCaptions" class="block text-sm px-2 py-4 text-orange-400 hover:bg-orange-600 transition duration-300">Différentes cryptomonnaies</a></li>
+        <li><a href="#resaux sociaux" class="block text-sm px-2 py-4 text-orange-400 hover:bg-orange-600 transition duration-300">Nous contacter</a></li>
+        <li><a href="#carouselExampleCaptions" class="block text-sm px-2 py-4 text-orange-400 hover:bg-orange-600 transition duration-300"><router-link to="/cryptos">Différentes cryptomonnaies</router-link></a></li>
       </ul>
     </div>
   </nav>

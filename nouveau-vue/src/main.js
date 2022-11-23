@@ -10,7 +10,6 @@ import './script.js'
 createApp(App).use(store).use(router).mount('#app')
 
  
-
 const btn = document.querySelector("button.mobile-menu-button");
       const menu = document.querySelector(".mobile-menu");
 

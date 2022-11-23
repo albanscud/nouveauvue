@@ -1,5 +1,5 @@
 <template>
-   <div id="app">
+   <!-- <div id="app">
     <div class="justify-center pr-5">
       <div class="text-center">
         <div class="py-4" v-for="produit in produits" >
@@ -9,13 +9,21 @@
         </div>
       </div>
     </div>
-    </div>
+    </div> -->
+
+
+  
+
 </template>
 
 <script>
+
+
+
 /* import axios from 'axios'
 
-({
+export default {
+  name: "infoscryptos",
   data() {
     return {
       produits: [],
@@ -26,5 +34,8 @@
       .get("produit.json")
       .then((response) => (this.produits = response.data.produits));
   },
-}).mounted("#app"); */
+}
+ */
+
+
 </script>
