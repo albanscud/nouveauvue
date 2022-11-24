@@ -1,6 +1,6 @@
 <template>
     <div class="bg-white flex">
-    <div class="sm:py-2 sm:px-2 lg:px-2  "><img src="../assets/logo.png" alt="logo de la boite" width="200"></div>
+    <div class="sm:py-2 sm:px-2 lg:px-2  "><img src="../assets/logo1.png" alt="logo de la boite" width="200"></div>
     <div class="mx-auto max-w-7xl px-4 sm:py-10 sm:px-6 lg:px-8">
       <div class="text-center">
         <h2 class="text-xl font-semibold text-orange-400">Cryptomonnaies</h2>

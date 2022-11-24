@@ -24,6 +24,11 @@ const routes = [
     path: '/seconnecter',
     name: 'Seconnecter',
     component: () => import(/* webpackChunkName: "seconnecter" */ '../views/Seconnecter.vue')
+  },
+  {
+    path: '/cry',
+    name: 'Cry',
+    component: () => import(/* webpackChunkName: "cry" */ '../views/Cry.vue')
   }
 ]
 

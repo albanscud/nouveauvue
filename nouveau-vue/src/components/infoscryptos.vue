@@ -1,17 +1,8 @@
 <template>
 
-
-   <!-- <div>
-    <div class="justify-center pr-5">
-      <div class="text-center">
-        <div v-for="(produit, index) in produit" :key="index" :id="produit.id" :name="produit.name" :creator="produit.creator" :image="produit.image " >
-        </div>
-      </div>
-    </div>
-    </div>  -->
   
-    <!-- <p class="py-5 text-center text-xl"> Différentes cryptomonnaies ci dessous : </p>
-      <div>
+
+      <!--<div>
         <div class="text-center">
           <div class="py-4" v-for="produit in produits" :key="produit.id" >
             <p>{{produit.name}}</p>
@@ -20,7 +11,7 @@
           </div>
           </div>
       </div>  -->
-          
+  <p class="py-5 text-center text-xl"> Différentes cryptomonnaies ci dessous : </p>       
   <div class="bg-white">
     <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
       <h2 class="sr-only">Produits</h2>
