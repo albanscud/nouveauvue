@@ -4,31 +4,44 @@
             "id": 1,
             "name": "Bitcoin",
             "creator": "Satoshi Nakamoto",
-            "image": "https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=023"
+            "image": "https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=023",
+            "price": "≃ 16000", 
+            "about": "euros"
+            
+
         },
         {
             "id": 2,
             "name": "Solana",
             "creator": "Anatoly Yakovenko",
-            "image": "https://cryptologos.cc/logos/solana-sol-logo.png?v=023"
+            "image": "https://cryptologos.cc/logos/solana-sol-logo.png?v=023",
+            "price": "≃ 13",
+            "about": "euros"
+
         },
         {
             "id": 3,
             "name": "Ethereum",
             "creator": "Vitalik Buterin",
-            "image": "https://cryptologos.cc/logos/ethereum-eth-logo.png?v=023"
+            "image": "https://cryptologos.cc/logos/ethereum-eth-logo.png?v=023",
+            "price": "≃ 1200",
+            "about": "euros"               
         },
         {
             "id": 4,
             "name": "Cardano",
             "creator": "Charles Hoskinson",
-            "image": "https://cryptologos.cc/logos/cardano-ada-logo.png?v=023"
+            "image": "https://cryptologos.cc/logos/cardano-ada-logo.png?v=023",
+            "price": "≃ 0.30",
+            "about": "euros"
         },
         {
             "id": 5,
             "name": "XRP",
             "creator": "Ripple",
-            "image": "https://cryptologos.cc/logos/xrp-xrp-logo.png?v=023"
+            "image": "https://cryptologos.cc/logos/xrp-xrp-logo.png?v=023",
+            "price": "≃ 0.30",
+            "about": "euros"
 
   
         },         
@@ -36,20 +49,27 @@
             "id": 6,
             "name":"BNB",
             "creator": "Binance",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Binance_Logo.png"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Binance_Logo.png",
+            "price": "≃ 280",
+            "about": "euros"
+            
         },  
         {
             "id": 7,
             "name":"Dodge",
             "creator": "Elon Musk",
-            "image": "https://cryptologos.cc/logos/dogecoin-doge-logo.png?v=023"
+            "image": "https://cryptologos.cc/logos/dogecoin-doge-logo.png?v=023",
+            "price": "≃ 0.05",
+            "about": "euros"
             
         },
         {
             "id": 8,
             "name":"Polkadot",
             "creator": "Gavin Wood",
-            "image": "https://cryptologos.cc/logos/polkadot-new-dot-logo.png?v=023"
+            "image": "https://cryptologos.cc/logos/polkadot-new-dot-logo.png?v=023",
+            "price": "≃ 5",
+            "about": " euros"
         }
     ]
   
